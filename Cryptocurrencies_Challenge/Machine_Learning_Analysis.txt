@@ -1,0 +1,42 @@
+#Machine Learning Analysis
+
+## Overview of Project
+
+1. Describe the differences between supervised and unsupervised learning, including real-world examples of each.
+2. Preprocess data for unsupervised learning.
+3. Cluster data using the K-means algorithm.
+4. Determine the best number of centroids for K-means using the elbow curve.
+5. Use PCA to limit features and speed up the model.
+
+Software: Jupyter Notebook, Pandas, HVPlot, Plotly, Sklearn
+
+## Purpose
+
+Using unsupervised machine learning, analyze the cryptocurrency market for a client. The client is a bank who is interested in offering a new cryptocurrency to customers, but they want an analysis on a vast range of cryptocurrencies and how they are performing in the stock market. The bank would like a classification system of the currently traded cryptocurrency so they can choose what is best for their customers. The data must be processed, reduced, clustered, and then visualized in order to give the best presentation to the clieant
+
+## Results
+
+### Preprocessing the Data 
+!!!!!!new dataframe created 
+!!!!!!!!!!!!get dummies df
+!!!!!!!!!standardized data 
+
+### Reducing Data Dimensions with PCA
+############deliverable 2
+
+### Using K-Means to Cluster Cryptocurrencies
+!!!!!!!!elbow curve
+!!!!!!!!!!!!predictions
+!!!!!!!clustered df
+
+### Visualizing the Results
+
+!!!!!!!!!!!1 3d scatter plot
+!!!!table 
+!!!!!!!!dataframe 
+!!!!!!!!!1 scatter plot
+
+
+
+## Summary 
+From the analysis above, and using the 3D Scatter Plot as a basis, there are three groups of cryptocurrencies. Two of the groups are very closer together and lie on similar planes. The third group is a bit more spread out and farther away from the others. This shows that many of the cryptocurrencies may perform similarly, while there will be select outliers in that performance. This data does not show if the third group of cryptocurrencies is over performing or underperforming their peers, so more analysis would have to be done to draw a sound conclusion. 
